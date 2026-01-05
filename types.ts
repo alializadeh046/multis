@@ -19,8 +19,10 @@ export interface Signal {
   stopLoss: number;
   takeProfit: number;
   positionSize?: number;
+  suggestedLeverage?: number;
   timestamp: number;
   status: 'PENDING' | 'SENT' | 'FAILED';
+  rejectionReason?: string;
 }
 
 export interface AppConfig {
