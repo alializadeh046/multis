@@ -1,0 +1,5 @@
+{
+  "name": "CryptoSignal AI Bot",
+  "description": "A sophisticated crypto signal generator using EMA crossover strategies, smart timeframe selection, and automated risk management with Telegram notifications.",
+  "requestFramePermissions": []
+}
